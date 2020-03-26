@@ -200,6 +200,6 @@ void main()
 	base_address = (unsigned long long int)Input_Output_Data.data;
 
 	DirectOverlaySetOption(D2DOV_DRAW_FPS | D2DOV_FONT_IMPACT);
-	DirectOverlaySetup(drawLoop, FindWindow(NULL, "untitled - notepad"));
+	DirectOverlaySetup(drawLoop, FindWindow(NULL, "PLAYERUNKNOWN'S BATTLEGROUNDS "));
 	getchar();
 }
